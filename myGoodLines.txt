@@ -1,0 +1,5 @@
+agree=Yes, I agree. That sounds fine to me.
+busy=Sorry, can we do this later this week or next week?
+upsell=Would you consider making this a monthly meeting?
+brat=Bella, is such a princess.
+neverStarted=“It's a job that's never started that takes the longest to finish.”J.R.R. Tolkien
