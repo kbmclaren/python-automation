@@ -1,13 +1,17 @@
-#file: characterCount.py
-#author: Caleb M McLaren
-#email: kbmclaren@gmail.com
-#date: April 8th, 2022
-#description: use built in setdefault() of python dictionaries to implement 
-#	simple counting sort/incident count 
+#! python3
+
+"""
+file: characterCount.py
+author: Caleb M McLaren
+email: kbmclaren@gmail.com
+date: April 8th, 2022
+description: use built in setdefault() of python dictionaries to implement 
+	simple incident count of characters seen in message. 
+"""
 
 import pprint
 
-message = 'It was a bright cold day in April, and the clocks were striking thirteen.'
+message = input('Please input a simple message: ')
 count = {}
 
 for character in message:
