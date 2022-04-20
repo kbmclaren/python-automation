@@ -1,4 +1,5 @@
 Automation Studies in Python
 
 * bulletPointAdder.py:
-* characterCount.py: Count the characters seen in message.
+* characterCount.py: Disply the count of characters seen in message.
+* exitExample.py: Demonstrate the use of system.exit() via user input.
