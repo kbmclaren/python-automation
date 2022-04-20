@@ -1,4 +1,4 @@
-#Automation Studies in Python
+# Automation Studies in Python
 
 ## Script
 * bulletPointAdder.py: Text in clipboard modified to include leading "* " on each line.
