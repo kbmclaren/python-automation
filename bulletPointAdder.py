@@ -1,4 +1,6 @@
 #! python3
+
+
 """
 file: bulletPointAdder.py
 author: Caleb M. McLaren, original by Al Sweigart
@@ -13,11 +15,14 @@ description: bulletPointAdder.py must take text from the clipboard (part of OS),
 example: 	list of animal		->	* list of animal
 		list of aquarium life	->	* list of aquarium life
 """
+
+
 #
-#whatever is on clipboard become text variable string when bulletPointAdder.py is called.
+#Whatever is on clipboard become text variable string when bulletPointAdder.py is called.
 #
 import pyperclip
 text = pyperclip.paste()
+
 #
 #Separate lines and add stars
 #
@@ -37,3 +42,5 @@ text = "\n".join(tempList)
 #The variable "text" has been modified and is ready to be returned to clipboard for pasting to target doc
 #
 pyperclip.copy(text)	
+
+#end bulletPointAdder.py
