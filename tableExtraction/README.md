@@ -14,6 +14,9 @@
 
 ## Modules
 
-* extractTable.py: grab html tables from url and print out the first one found
+* extractTable.py: grab html tables from url and print out the first one found<br>
     usage: python3 extractTable.py [<targetURL>]
+
+* extractCSV.py: read a .csv file from a URL with Pandas
+    usage: python3 extractCSV.py [<targetURL>] -- targetURL should be exact URL for .csv file.
 
