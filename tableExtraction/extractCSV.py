@@ -1,5 +1,17 @@
 """Read a .csv from a URL with Pandas
 
+This script prints out the first/last 5 rows of the .csv table found on the url provided by the user.
+
+This script accepts only one URL address per call. 
+
+This script requires pandas and lxml be installed within the Python environment you are
+running this script in. 
+
+This file can also be imported as a module and contains the following functions.
+
+    * extractCSV -- returns DataFrame of the .csv file.
+    * main -- the main function of the script, calls extractCSV and prints 10 rows.
+
 file: extractCSV.py
 Author: Caleb M. McLaren
 email: kbmclaren@gmail.com
